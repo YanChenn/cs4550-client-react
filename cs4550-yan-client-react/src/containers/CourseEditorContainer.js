@@ -35,8 +35,8 @@ export default class CourseEditorContainer extends React.Component {
               </div>
               <div
                   className="col-10 col-md-2 text-truncate align-middle"
-                  title={this.state.courseName}>
-                {this.state.courseName}
+                  title={this.state.title}>
+                {this.state.title}
               </div>
               <div className="col-12 col-md-9">
                 {
@@ -49,7 +49,7 @@ export default class CourseEditorContainer extends React.Component {
             {
               <ModuleListContainer {...this.props.match}/>
             }
-            <div className="col-md-8 wbdv-no-padding">
+            <div className="col-md-8">
               {
                 <TopicPillsContainer {...this.props.match}/>
               }

@@ -3,7 +3,9 @@ import {Link} from "react-router-dom";
 
 export default class LessonTabsComponent extends React.Component {
     state = {
-        editingLesson: {}
+        editingLesson: {},
+      newLessonTitle: 'New Lesson',
+      selected: this.props.params.lessonId
     };
 
     componentDidMount() {

@@ -4,7 +4,7 @@ import TopicPillsComponent from "../components/CourseEditor/TopicPillsComponent"
 
 const stateToPropertyMapper = (state, ownProps) => ({
     topics: state.TopicReducer.topics,
-    newTopicTitle: state.topicReducer.newTopicTitle,
+    newTopicTitle: state.TopicReducer.newTopicTitle,
     params: ownProps.params
 });
 

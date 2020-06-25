@@ -1,5 +1,6 @@
 const initialState = {
-    topics: []
+    topics: [],
+    newTopicTitle: 'New Topic'
 };
 
 const TopicReducer = (state = initialState, action) => {

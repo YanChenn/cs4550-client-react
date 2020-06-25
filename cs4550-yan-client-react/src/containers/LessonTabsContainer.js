@@ -10,7 +10,7 @@ import {
 
 const stateToPropertyMapper = (state, ownProps) => ({
     lessons: state.LessonReducer.lessons,
-    newLessonTitle: state.lessonReducer.newLessonTitle,
+    newLessonTitle: state.LessonReducer.newLessonTitle,
     params: ownProps.params
 })
 
